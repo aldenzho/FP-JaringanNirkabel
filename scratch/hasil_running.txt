@@ -1,0 +1,197 @@
+aldenzho@LAPTOP-612JE4HL:~/FP-JaringanNirkabel/ns-allinone-3.44/ns-3.44$ ./ns3 run scratch/ble-maodv-comprehensive-test
+Consolidate compiler generated dependencies of target stdlib_pch-debug
+Consolidate compiler generated dependencies of target stdlib_pch_exec
+Consolidate compiler generated dependencies of target raw-sock-creator
+Consolidate compiler generated dependencies of target core
+Consolidate compiler generated dependencies of target config-store
+Consolidate compiler generated dependencies of target antenna
+Consolidate compiler generated dependencies of target stats
+Consolidate compiler generated dependencies of target network
+Consolidate compiler generated dependencies of target virtual-net-device
+Consolidate compiler generated dependencies of target tap-creator
+Consolidate compiler generated dependencies of target bridge
+Consolidate compiler generated dependencies of target tap-device-creator
+Consolidate compiler generated dependencies of target point-to-point
+Consolidate compiler generated dependencies of target csma
+Consolidate compiler generated dependencies of target topology-read
+Consolidate compiler generated dependencies of target mobility
+Consolidate compiler generated dependencies of target energy
+Consolidate compiler generated dependencies of target traffic-control
+Consolidate compiler generated dependencies of target fd-net-device
+Consolidate compiler generated dependencies of target propagation
+Consolidate compiler generated dependencies of target uan
+Consolidate compiler generated dependencies of target buildings
+Consolidate compiler generated dependencies of target spectrum
+Consolidate compiler generated dependencies of target internet
+Consolidate compiler generated dependencies of target lr-wpan
+Consolidate compiler generated dependencies of target zigbee
+Consolidate compiler generated dependencies of target csma-layout
+Consolidate compiler generated dependencies of target nix-vector-routing
+Consolidate compiler generated dependencies of target sixlowpan
+Consolidate compiler generated dependencies of target point-to-point-layout
+Consolidate compiler generated dependencies of target tap-bridge
+Consolidate compiler generated dependencies of target flow-monitor
+Consolidate compiler generated dependencies of target olsr
+Consolidate compiler generated dependencies of target internet-apps
+Consolidate compiler generated dependencies of target applications
+Consolidate compiler generated dependencies of target wimax
+Consolidate compiler generated dependencies of target wifi
+Consolidate compiler generated dependencies of target lte
+Consolidate compiler generated dependencies of target aodv
+Consolidate compiler generated dependencies of target mesh
+Consolidate compiler generated dependencies of target netanim
+Consolidate compiler generated dependencies of target dsdv
+Consolidate compiler generated dependencies of target dsr
+Consolidate compiler generated dependencies of target scratch_ble-maodv-comprehensive-test
+=== BLE-MAODV COMPLETE RESEARCH IMPLEMENTATION ===
+Nodes: 8
+Simulation Time: 60s
+Scenario: balanced
+
+=== COMPREHENSIVE COMPARATIVE ANALYSIS ===
+
+=== RUNNING BLE-MAODV SIMULATION ===
+Scenario: balanced
+Initial Adaptive Weights: Hop:0.150, Energy:0.550, RSSI:0.150, Stability:0.150
+Network Context: Balanced
+Flow 0: Node 0 -> Node 1
+Flow 1: Node 1 -> Node 2
+Flow 2: Node 2 -> Node 3
+Flow 3: Node 3 -> Node 4
+Flow 4: Node 4 -> Node 5
+Flow 5: Node 5 -> Node 6
+Flow 6: Node 6 -> Node 7
+
+--- BLE-MAODV MULTI-METRIC PATH SELECTION @ 5s ---
+SELECTED PATH: via 10.1.1.3 (Score: 0.719)
+Metrics - Hops: 3, Energy: 0.9, RSSI: -55, Stability: 0.6
+
+--- BLE-MAODV MULTI-METRIC PATH SELECTION @ 20s ---
+High Mobility Weights: Hop:0.100, Energy:0.200, RSSI:0.300, Stability:0.400
+SELECTED PATH: via 10.1.1.1 (Score: 0.685)
+Metrics - Hops: 2, Energy: 0.8, RSSI: -60, Stability: 0.8
+
+=== NETWORK CONTEXT CHANGE: High Mobility Detected ===
+Adapting weights to prioritize stability and link quality...
+
+--- BLE-MAODV MULTI-METRIC PATH SELECTION @ 35s ---
+High Mobility Weights: Hop:0.100, Energy:0.200, RSSI:0.300, Stability:0.400
+SELECTED PATH: via 10.1.1.1 (Score: 0.685)
+Metrics - Hops: 2, Energy: 0.8, RSSI: -60, Stability: 0.8
+
+=== NETWORK CONTEXT CHANGE: Energy Critical Detected ===
+Adapting weights to prioritize energy conservation...
+
+--- BLE-MAODV MULTI-METRIC PATH SELECTION @ 50s ---
+Energy Critical Weights: Hop:0.150, Energy:0.550, RSSI:0.150, Stability:0.150
+SELECTED PATH: via 10.1.1.3 (Score: 0.719)
+Metrics - Hops: 3, Energy: 0.9, RSSI: -55, Stability: 0.6
+Flow 1 (10.1.1.1 -> 10.1.1.2)
+  Tx Packets: 112
+  Rx Packets: 112
+  Throughput: 4.58 Kbps
+Flow 2 (10.1.1.2 -> 10.1.1.1)
+  Tx Packets: 112
+  Rx Packets: 112
+  Throughput: 4.59 Kbps
+Flow 3 (10.1.1.2 -> 10.1.1.3)
+  Tx Packets: 28
+  Rx Packets: 28
+  Throughput: 4.36 Kbps
+Flow 4 (10.1.1.3 -> 10.1.1.2)
+  Tx Packets: 28
+  Rx Packets: 28
+  Throughput: 4.36 Kbps
+Flow 5 (10.1.1.3 -> 10.1.1.4)
+  Tx Packets: 55
+  Rx Packets: 55
+  Throughput: 4.4 Kbps
+Flow 6 (10.1.1.4 -> 10.1.1.3)
+  Tx Packets: 55
+  Rx Packets: 55
+  Throughput: 4.4 Kbps
+Flow 7 (10.1.1.4 -> 10.1.1.5)
+  Tx Packets: 109
+  Rx Packets: 109
+  Throughput: 4.59 Kbps
+Flow 8 (10.1.1.5 -> 10.1.1.4)
+  Tx Packets: 109
+  Rx Packets: 109
+  Throughput: 4.59 Kbps
+Flow 9 (10.1.1.5 -> 10.1.1.6)
+  Tx Packets: 27
+  Rx Packets: 27
+  Throughput: 4.37 Kbps
+Flow 10 (10.1.1.6 -> 10.1.1.5)
+  Tx Packets: 27
+  Rx Packets: 27
+  Throughput: 4.37 Kbps
+Flow 11 (10.1.1.6 -> 10.1.1.7)
+  Tx Packets: 54
+  Rx Packets: 54
+  Throughput: 4.4 Kbps
+Flow 12 (10.1.1.7 -> 10.1.1.6)
+  Tx Packets: 54
+  Rx Packets: 54
+  Throughput: 4.4 Kbps
+Flow 13 (10.1.1.7 -> 10.1.1.8)
+  Tx Packets: 106
+  Rx Packets: 106
+  Throughput: 4.59 Kbps
+Flow 14 (10.1.1.8 -> 10.1.1.7)
+  Tx Packets: 106
+  Rx Packets: 106
+  Throughput: 4.63 Kbps
+
+=== BLE-MAODV PERFORMANCE METRICS ===
+Primary Metrics:
+  Packet Delivery Ratio (PDR): 100.00%
+  Average End-to-End Delay: 1.1103 ms
+  Network Throughput: 0.26 Kbps
+  Total Energy Consumed: 1.4730 J
+  Network Lifetime: 60.0000 s
+
+Secondary Metrics:
+  Route Stability Index: 0.000
+  Control Overhead: 0 packets
+  Route Discoveries: 0
+  Proactive Switches: 0
+  Route Errors: 0
+
+Per-Flow Statistics:
+  Flow 1: PDR=100.00%, Packets=1/1
+  Flow 2: PDR=100.00%, Packets=1/1
+  Flow 3: PDR=100.00%, Packets=1/1
+  Flow 4: PDR=100.00%, Packets=1/1
+  Flow 5: PDR=100.00%, Packets=1/1
+  Flow 6: PDR=100.00%, Packets=1/1
+  Flow 7: PDR=100.00%, Packets=1/1
+  Flow 8: PDR=100.00%, Packets=1/1
+  Flow 9: PDR=100.00%, Packets=1/1
+  Flow 10: PDR=100.00%, Packets=1/1
+  Flow 11: PDR=100.00%, Packets=1/1
+  Flow 12: PDR=100.00%, Packets=1/1
+  Flow 13: PDR=100.00%, Packets=1/1
+  Flow 14: PDR=100.00%, Packets=1/1
+
+=== COMPARATIVE ANALYSIS RESULTS ===
+Protocol    PDR(%)  Delay(ms) Throughput  Energy(J) Stability Overhead
+------------------------------------------------------------------------
+BLE-MAODV   100.00  1.1103    0.26        1.4730    0.000     0
+AODV        0.00    0.0000    -0.00       22.5000   0.000     3
+MO-AODV     0.00    0.0000    0.00        18.7000   0.000     2
+
+=== PERFORMANCE IMPROVEMENT ANALYSIS ===
+BLE-MAODV vs Standard AODV:
+  PDR Improvement: -100.00%
+  Delay Reduction: 100.00%
+  Energy Saving: -1169.52%
+BLE-MAODV vs MO-AODV:
+  PDR Improvement: inf%
+  Delay Reduction: -inf%
+  Energy Saving: 16.89%
+NS_ASSERT failed, cond="m_ptr", msg="Attempted to dereference zero pointer", +60.009000000s 0 file=/home/aldenzho/FP-JaringanNirkabel/ns-allinone-3.44/ns-3.44/src/core/model/ptr.h, line=707
+NS_FATAL, terminating
+terminate called without an active exception
+Command 'build/scratch/ns3.44-ble-maodv-comprehensive-test-debug' died with <Signals.SIGABRT: 6>.
+aldenzho@LAPTOP-612JE4HL:~/FP-JaringanNirkabel/ns-allinone-3.44/ns-3.44$
